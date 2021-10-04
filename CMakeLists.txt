@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.0)
 # Project is not versioned, so use date of last upstream commit.
 project(xatlas LANGUAGES CXX VERSION "0.0.0")
 
-set(XATLAS_SRC "xatlas.cpp")
+set(XATLAS_SRC "./source/xatlas/xatlas.cpp")
 
-set(XATLAS_HEADERS "xatlas.h")
+set(XATLAS_HEADERS "./source/xatlas/xatlas.h")
 
 add_library(xatlas ${XATLAS_SRC} ${XATLAS_HEADERS})
 
